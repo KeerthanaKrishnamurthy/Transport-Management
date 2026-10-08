@@ -8,7 +8,7 @@ public class Vehicle {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long vehicleId;
 
     private String make;
     private String model;
@@ -32,7 +32,7 @@ public class Vehicle {
     }
 
     public Long getId() {
-        return id;
+        return vehicleId;
     }
 
     public String getMake() {
