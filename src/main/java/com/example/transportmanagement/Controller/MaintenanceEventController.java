@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/events")
 
-public class EventController {
+public class MaintenanceEventController {
 
     private final MaintenanceEventService maintenanceEventService;
 
-    public EventController(MaintenanceEventService maintenanceEventService) {
+    public MaintenanceEventController(MaintenanceEventService maintenanceEventService) {
         this.maintenanceEventService = maintenanceEventService;
     }
 
